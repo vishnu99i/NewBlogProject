@@ -43,9 +43,10 @@ function Header() {
         <nav className='flex flex-wrap'>
           <div className='mr-4'>
             <Link to='/'>
-              <Logo width='70px'   />
+              <Logo width='70px' />
             </Link>
           </div>
+          <div className="ml-auto">
           <ul className='flex ml-auto'>
             {navItems.map((item) => 
             item.active ? (
@@ -63,6 +64,7 @@ function Header() {
               </li>
             )}
           </ul>
+          </div>
         </nav>
         </Container>
     </header>
