@@ -23,12 +23,14 @@ function App() {
   }, [])
   
   return !loading ? (
-    <div className='min-h-screen flex flex-wrap content-between bg-gray-400'>
+    <div className='min-h-screen flex flex-wrap content-between text-slate-100 bg-slate-900'>
       <div className='w-full block'>
         <Header />
         <main>
         {/* Outlet comes from react router dom */}
-        TODO:  <Outlet /> 
+        {/* Post Garage   */}
+        <p className='font-extrabold'>Post Garage</p>
+        <Outlet /> 
         </main>
         <Footer />
       </div>
