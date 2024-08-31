@@ -10,6 +10,8 @@ function AllPosts() {
             setPosts(posts.documents)
         }
     })
+    console.log(posts.featuredImage);
+    
 
   return (
     <div className='w-full py-8'>
