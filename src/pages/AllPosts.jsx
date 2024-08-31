@@ -10,12 +10,13 @@ function AllPosts() {
             setPosts(posts.documents)
         }
     })
+
   return (
     <div className='w-full py-8'>
         <Container>
             <div className='flex flex-wrap'>
                 {posts.map((post) => (
-                    <div key={post.$id} className='p-2 w-1/4'>
+                    <div key={post.$id} className='p-2 md:w-1/4 sm:w-1/3'>
                         <PostCard {...post} />
                     </div>
                 ))}
