@@ -40,20 +40,20 @@ function Header() {
   return (
     <header className='py-3 shadow bg-slate-950 text-slate-50 font-extrabold'>
       <Container>
-        <nav className='flex flex-wrap bg-black'>
-          <div className='mr-4'>
+        <nav className='flex'>
+          <div className='mr-4 w-1/5'>
             <Link to='/'>
               <Logo />
             </Link>
           </div>
-          <div className="ml-auto flex">
-          <ul className='flex'>
+          <div className="ml-auto flex w-4/5">
+          <ul className='ml-auto flex'>
             {navItems.map((item) => 
             item.active ? (
               <li key={item.name}>
                 <button
                 onClick={() => navigate(item.slug)}
-                className='inline-bock px-6 py-2 duration-200 hover:bg-blue-100 hover:text-slate-950 animate-pulse hover:animate-bounce rounded-full'
+                className='inline-block px-6 py-2 duration-200 hover:bg-blue-100 hover:text-slate-950 animate-pulse hover:animate-bounce rounded-full'
                 >{item.name}</button>
               </li>
             ) : null
