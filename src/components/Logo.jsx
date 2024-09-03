@@ -2,7 +2,7 @@ import React from 'react'
 
 function Logo() {
   return (
-    <div>Post Garage</div>
+    <div className='hover:animate-bounce duration-500'>Post Garage</div>
   )
 }
 
