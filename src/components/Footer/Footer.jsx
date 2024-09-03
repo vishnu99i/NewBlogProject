@@ -4,7 +4,8 @@ import Logo from '../Logo'
 
 function Footer() {
   return (
-    <section className="relative overflow-hidden py-3 bg-slate-950 border border-t-2 border-t-white">
+    <section className="relative overflow-hidden py-3 bg-slate-900 border border-t-2 border-t-white">
+
             <div className="relative z-10 mx-auto max-w-7xl px-4">
                 <div className="md:m-6 flex flex-wrap">
                     <div className="w-full md:p-6 md:w-1/2 lg:w-5/12">
@@ -16,6 +17,8 @@ function Footer() {
                             </div>
                         </div>
                     </div>
+
+
                     <div className="w-full p-6 md:w-1/2 lg:w-2/12">
                         <div className="h-full">
                             <h3 className="tracking-px mb-3  text-xs font-extrabold uppercase text-slate-100">
@@ -57,6 +60,8 @@ function Footer() {
                             </ul>
                         </div>
                     </div>
+
+
                     <div className="w-full p-6 md:w-1/2 lg:w-2/12">
                         <div className="h-full">
                             <h3 className="tracking-px mb-3  text-xs font-extrabold uppercase text-slate-100">
@@ -98,6 +103,8 @@ function Footer() {
                             </ul>
                         </div>
                     </div>
+
+                    
                     <div className="w-full p-6 md:w-1/2 lg:w-3/12">
                         <div className="h-full">
                             <h3 className="tracking-px mb-3  text-xs font-extrabold uppercase text-slate-100">
