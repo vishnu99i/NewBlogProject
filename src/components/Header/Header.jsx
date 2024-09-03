@@ -41,12 +41,12 @@ function Header() {
     <header className='shadow bg-slate-950 text-slate-50 font-extrabold'>
       <Container>
         <nav className='flex'>
-          <div className='mr-4 w-1/5'>
+          <div className='mr-4'>
             <Link to='/'>
               <Logo />
             </Link>
           </div>
-          <div className="ml-auto flex w-4/5">
+          <div className="ml-auto flex">
           <ul className='ml-auto flex'>
             {navItems.map((item) => 
             item.active ? (
