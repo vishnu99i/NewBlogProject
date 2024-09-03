@@ -29,7 +29,7 @@ function App() {
         <main>
         {/* Outlet comes from react router dom */}
         {/* Post Garage   */}
-        <p className='font-extrabold'>Post Garage</p>
+        {/* <p className='font-extrabold'>Post Garage</p> */}
         <Outlet /> 
         </main>
         <Footer />
